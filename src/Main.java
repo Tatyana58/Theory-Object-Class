@@ -13,7 +13,7 @@ public class Main {
         for (int i=0; i< names.length;i++){
             System.out.println(" Имя - " + names[i] + " Возраст -" + ages[i]);
         }
-        Person sarah = createPerson(" Sarah",30);
+        Person sarah = Person.Person(" Sarah",30);
         System.out.println("sarah.name = " + sarah.name);
         System.out.println("sarah.age = " + sarah.age);
     }
