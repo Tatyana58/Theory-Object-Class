@@ -16,7 +16,7 @@ public class Main {
         String[] names = {"John","Sarah"};
         int[] ages = {13,30};
         for (int i=0; i< names.length;i++){
-            System.out.println("Имя - " + names[i] + " Возраст -" + ages[i]);
+            System.out.println(" Имя - " + names[i] + " Возраст -" + ages[i]);
         }
         Person sarah = new Person();
         sarah.name = "Sarah";
