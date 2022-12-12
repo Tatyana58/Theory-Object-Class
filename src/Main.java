@@ -11,5 +11,6 @@ public class Main {
         int[] ages = {13,30};
         for (int i=0; i< names.length;i++){
             System.out.println("Имя - " + names[i] + " Возраст -" + ages[i]);
+        }
     }
 }
