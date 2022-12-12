@@ -1,10 +1,5 @@
 public class Main {
-    public static Person createPerson(String name,int age) {
-        Person person = new Person();
-        person.name = name;
-        person.age = age;
-        return person;
-    }
+
     public static void main(String[] args) {
         System.out.println("Практика Создание Класса и Объекта");
         //вариант 1
