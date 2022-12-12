@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         System.out.println("Практика Создание Класса и Объекта");
         Person sarah = new Person(" Sarah",30);
@@ -9,6 +8,5 @@ public class Main {
         System.out.println("sarah.getAge() = " + sarah.getAge());
         Person john=new Person( "John",13);
         System.out.println("Имя: " + john.getName()+" Возраст: " + john.getAge());
-
     }
 }
