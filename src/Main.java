@@ -18,10 +18,8 @@ public class Main {
         for (int i=0; i< names.length;i++){
             System.out.println(" Имя - " + names[i] + " Возраст -" + ages[i]);
         }
-        Person sarah = new Person();
-        sarah.name = "Sarah";
+        Person sarah = createPerson("Sarah",30);
         System.out.println("sarah.name = " + sarah.name);
-        sarah.age = 30;
         System.out.println("sarah.age = " + sarah.age);
     }
 }
