@@ -9,28 +9,18 @@ public class Main {
      */
         public static void main(String[] args) {
         System.out.println("Практика Создание Класса и Объекта");
-        //вариант 1
-        String nameJohn = "John";
-        int ageJohn = 13;
-        String nameSarah = "Sarah";
-        int ageSarah = 30;
-        //вариант 2 - создаем 2 массива с Именем и возрастом
-        String[] names = {"John", "Sarah"};
-        int[] ages = {13, 30};
-        for (int i = 0; i < names.length; i++) {
-            System.out.println("Имя - " + names[i] + " Возраст -" + ages[i]);
-        }
         //Person sarah = new Person();  - Заменили на строчку ниже
+        PersonService personService=new PersonService();
         Person sarah = new Person("Sarah", 30); // Указали явно адрес Класса перед методом createPerson и заменили
         // на Person и затем Person.Person заменили на new Person
 
-            if(sarah.isAdult()){
-                System.out.println(nameSarah+" Иди в бар");
+            if(personService.isAdult(sarah)){
+                System.out.println(" Иди в бар");
             } else {
-                System.out.println(nameSarah + " Иди в школу");
+                System.out.println(" Иди в школу");
             }
             System.out.println(sarah);
-            sarah.setAge(20);
+            sarah.increaseAge(1);;
             System.out.println(sarah);
             //sarah.name = "Sarah"; заменили строчкой -  Person sarah = createPerson("Sarah",30);
         //System.out.println("sarah.name = " + sarah.getName());

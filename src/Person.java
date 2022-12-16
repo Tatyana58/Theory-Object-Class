@@ -18,14 +18,11 @@ public class Person {
     public int getAge() {
         return this.age;
     }
-    public void setAge(int age) {
-        if (age<this.age) {
-            throw new IllegalArgumentException("Новый возраст меньше, чем текущий");
-        }
+    public void increaseAge(int increment) {
         if (age<0){
-            throw  new IllegalArgumentException("Возраст не может быть отрицательным ");
+            throw  new IllegalArgumentException("Инкремент не может быть отрицательным ");
         }
-        this.age=age;
+        this.age=age+increment;
     }
     public String toString() {
         // Добавляем метод toString()
