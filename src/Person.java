@@ -20,7 +20,7 @@ public class Person {
     }
     public void setAge(int age) {
         if (age<this.age) {
-            throw new IllegalArgumentException("Новый возраст меньше текущего");
+            throw new IllegalArgumentException("Новый возраст меньше, чем текущий");
         }
         if (age<0){
             throw  new IllegalArgumentException("Возраст не может быть отрицательным ");
