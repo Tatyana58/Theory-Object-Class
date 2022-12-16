@@ -27,10 +27,12 @@ public class Main {
             if(sarah.isAdult()){
                 System.out.println(nameSarah+" Иди в бар");
             } else {
-                System.out.println(nameSarah+ " Иди в школу");
+                System.out.println(nameSarah + " Иди в школу");
             }
             System.out.println(sarah);
-        //sarah.name = "Sarah"; заменили строчкой -  Person sarah = createPerson("Sarah",30);
+            sarah.setAge(-30);
+            System.out.println(sarah);
+            //sarah.name = "Sarah"; заменили строчкой -  Person sarah = createPerson("Sarah",30);
         //System.out.println("sarah.name = " + sarah.getName());
         //sarah.age = 30; аменили строчкой   - Person sarah = createPerson("Sarah",30);
         //System.out.println("sarah.age = " + sarah.getAge());
