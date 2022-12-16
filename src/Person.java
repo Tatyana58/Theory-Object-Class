@@ -9,6 +9,9 @@ public class Person {
         this.age=age;
         //return person;  //после удаления static Person удалили данную строку
     }
+    public boolean isAdult(){
+    return this.getAge()>18;
+    }
     public String getName() {
         return this.name;
     }
@@ -18,5 +21,9 @@ public class Person {
     public void setAge(int age) {
         this.age=age;
     }
-
+    public String toString() {
+        // Добавляем метод toString()
+        return "Имя " + this.name + " Возраст " + this.age;
+        // Возвращаем строку в метод Main
+    }
 }
