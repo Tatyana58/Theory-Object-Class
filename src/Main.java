@@ -30,7 +30,7 @@ public class Main {
                 System.out.println(nameSarah + " Иди в школу");
             }
             System.out.println(sarah);
-            sarah.setAge(-30);
+            sarah.setAge(20);
             System.out.println(sarah);
             //sarah.name = "Sarah"; заменили строчкой -  Person sarah = createPerson("Sarah",30);
         //System.out.println("sarah.name = " + sarah.getName());
